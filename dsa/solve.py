@@ -6,7 +6,6 @@
 
 n = int(input())
 
-store = 0
 
 for i in range(1, n):
   x = int(input())
