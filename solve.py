@@ -6,7 +6,14 @@
 
 n = int(input())
 
-for i in range(2, n+1):
+store = 0
+
+for i in range(1, n):
+  x = int(input())
+  if x != i:
+    print(i)
+    break
+
 
 # Output
 # Print the missing number.
