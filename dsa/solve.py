@@ -4,15 +4,14 @@
 # The first input line contains an integer n.
 # The second line contains n-1 numbers. Each number is distinct and between 1 and n (inclusive).
 
-n = int(input())
-
-
-for i in range(1, n):
-  x = int(input())
-  if x != i:
-    print(i)
-    break
-
+table = {
+  "I"   : 1,
+  "II"  : 2,
+  "III" : 3,
+  "IV"  : 4,
+  "V"   : 5,
+  
+}
 
 # Output
 # Print the missing number.
