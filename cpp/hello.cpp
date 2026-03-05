@@ -12,12 +12,14 @@ vector<int> twoSum(vector<int> A, int target) {
   unordered_map<int, int> seen;
 
   for (int i = 0; i < A.size(); i++) {
-    int b = target - A[i];
-    if(b in seen) {
-      return {};
+    int a = A[i];
+    int b = target - a;
+    if(seen.find(b) != seen.end()) {
+      return {seen[b], i};
     }
-    seen[A[i]] = i;
+    seen[a] = i;
   }
+  return {-1};
 }
 
 int main() {
