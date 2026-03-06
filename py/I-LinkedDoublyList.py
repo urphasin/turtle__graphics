@@ -1,11 +1,13 @@
+class Node:
+    def __init__(self, value):
+      self.value = value
+      self.next = None
+
 class LinkedList:
+
   def __init__(self):
     self.head = None
 
-    class Node:
-      def __init__(self, value):
-        self.value = value
-        self.next = None
   
   def __repr__(self):
     pass
@@ -17,7 +19,8 @@ class LinkedList:
     pass
 
   def append(self, value):
-    pass
+    if self.head is None:
+      self.head = Node(value)
 
   def prepend(self, value):
     pass
