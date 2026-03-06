@@ -1,9 +1,8 @@
-class Node:
+class LinkedList:
+  class Node:
     def __init__(self, value):
       self.value = value
       self.next = None
-
-class LinkedList:
 
   def __init__(self):
     self.head = None
@@ -20,7 +19,7 @@ class LinkedList:
 
   def append(self, value):
     if self.head is None:
-      self.head = Node(value)
+      self.head = self.Node(value)
 
   def prepend(self, value):
     pass
