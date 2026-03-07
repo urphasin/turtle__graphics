@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct node {
+typedef struct node {
   int data;
   struct node *link;
-};
+} node_t;
 
 int main() {
 
-  // struct node* newNoode;
+  node_t* newNoode;
 
-  (struct node) *newNode = (struct node*)malloc(sizeof(struct node));
-  printf("hello world");
+  node_t* newNode = (node_t*)malloc(sizeof(node_t));
+  printf("%d\n", newNode->data);
+  printf("hello world\n");
 }
