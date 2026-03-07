@@ -8,6 +8,12 @@ typedef int   Integer;
 
 int main() {
 
+  
+
+
+
+
+
   Integer         Y = 5,  Z = 17; 
   IntegerPointer  A = &Y, B = &Z;
 
@@ -17,11 +23,11 @@ int main() {
   int* a = malloc(sizeof(int));
   *a = 6;
 
-  printf("%d : \n", *a);
+  printf("%d : \n", a[0]);
 
-  // free(a);
-  // free(A);
-  // free(B);
+  free(a);
+  free(A);
+  free(B);
 
   return 0;
 }
