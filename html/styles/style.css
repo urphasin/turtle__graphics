@@ -1,5 +1,33 @@
+/* start tutorial */
+.box {
+  width: 17vw;
+  height: 17vw;
+  background: ;
+}
+
+/* end tutorial */
+
+
+
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+.Header {
+  & a {
+    display: block;
+    text-align: right;
+  }
+}
+
+nav.MainNavigation ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
+  & li a {
+    color: yellow;
+  }
 }
 
 
@@ -7,6 +35,8 @@ body {
   max-width: 1200px;
   margin: 0 auto; /* This centers the container on the screen */
   padding: 0 20px; /* Adds a little "breathing room" on small mobile screens */
+  background-color: pink;
+  color: #006400;
 }
 
 .logo {
@@ -22,3 +52,4 @@ body {
   width: 100%;
 
 }
+
