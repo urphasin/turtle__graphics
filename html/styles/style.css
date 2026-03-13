@@ -9,6 +9,7 @@
 
 
 
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -35,8 +36,8 @@ body {
   max-width: 1200px;
   margin: 0 auto; /* This centers the container on the screen */
   padding: 0 20px; /* Adds a little "breathing room" on small mobile screens */
-  background-color: pink;
-  color: #006400;
+  background-color: rgb(72, 139, 211);
+  color: #f1f1f1;
 }
 
 .logo {
