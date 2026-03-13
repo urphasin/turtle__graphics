@@ -1,16 +1,76 @@
 /* start tutorial */
+/* 
+ _   _    ___     ______    _    ____  
+| \ | |  / \ \   / / __ )  / \  |  _ \ 
+|  \| | / _ \ \ / /|  _ \ / _ \ | |_) |
+| |\  |/ ___ \ V / | |_) / ___ \|  _ < 
+|_| \_/_/   \_\_/  |____/_/   \_\_| \_\
+*/
+.test .first-section__nav ul {
+  list-style-type: none;
+
+
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+
+
+  & li {
+    border: 1px solid rgb(8, 107, 245);
+    border-radius: 5vw;
+    padding: 0.5vw 1vw;
+
+    & a {
+      color: yellow;
+    }
+  }
+
+  & li:nth-of-type(3) {
+    flex: 2;
+
+    & a {}
+  }
+}
+
+
 .box {
   width: 17vw;
   height: 17vw;
   background: linear-gradient(lightblue, lightgreen, rgb(242, 157, 242), pink);
 }
 
+
+/*
+.___________. _______     _______.___________.  
+|           ||   ____|   /       |           |  
+`---|  |----`|  |__     |   (----`---|  |----`  
+    |  |     |   __|     \   \       |  |       
+    |  |     |  |____.----)   |      |  |       
+    |__|     |_______|_______/       |__|       
+                                                
+     ___      .______       _______     ___     
+    /   \     |   _  \     |   ____|   /   \    
+   /  ^  \    |  |_)  |    |  |__     /  ^  \   
+  /  /_\  \   |      /     |   __|   /  /_\  \  
+ /  _____  \  |  |\  \----.|  |____ /  _____  \ 
+/__/     \__\ | _| `._____||_______/__/     \__\
+*/
+
+
 /* end tutorial */
 
 
 
 
-*, *::before, *::after {
+
+
+
+
+
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -34,8 +94,10 @@ nav.MainNavigation ul {
 
 body {
   max-width: 1200px;
-  margin: 0 auto; /* This centers the container on the screen */
-  padding: 0 20px; /* Adds a little "breathing room" on small mobile screens */
+  margin: 0 auto;
+  /* This centers the container on the screen */
+  padding: 0 20px;
+  /* Adds a little "breathing room" on small mobile screens */
   background-color: rgb(72, 139, 211);
   color: #f1f1f1;
 }
@@ -53,4 +115,3 @@ body {
   width: 100%;
 
 }
-
