@@ -2,7 +2,7 @@
 .box {
   width: 17vw;
   height: 17vw;
-  background: ;
+  background: linear-gradient(lightblue, lightgreen, purple, pink);
 }
 
 /* end tutorial */
