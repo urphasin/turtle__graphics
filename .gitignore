@@ -4,3 +4,18 @@ chapter8/01_tailwind/dist/*
 chapter8/AwesomeAnalytics/TailwindBased/assets/css/tailwind_output.css
 
 
+# macOS executables
+main
+game
+*.out
+
+# build folders
+build/
+bin/
+
+# object files
+*.o
+*.obj
+
+# macOS system files
+.DS_Store
